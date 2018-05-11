@@ -1,11 +1,14 @@
 #!/bin/sh
-# cd /Users/vv.rymar/Desktop/
-# bash ss.sh
+# ~/Documents/GitHub/android-bash
+# bash send2mmc_preview.sh
+
+
 
 echo ……………………………… PREVIEW
+echo ~
+cd ~/Documents/GitHub/android-bash
 adb shell mkdir /sdcard/Preview
-for i in /Users/vv.rymar/Desktop/en/*.png; do echo $i; adb push "$i" /sdcard/Preview/; done;
-adb pull $filepath /Users/vv.rymar/Desktop/screenshot.png
+for i in ~/Desktop/en/*.png; do echo $i; adb push "$i" /sdcard/Preview/; done;
 echo  
 echo ………………………………………………………………
 echo 
