@@ -1,5 +1,4 @@
 #!/bin/sh
-# cd ~/Desktop/
 # cd ~/Documents/GitHub/android-bash
 # bash screenshot.sh
 
